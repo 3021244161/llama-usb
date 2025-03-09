@@ -1,0 +1,17 @@
+ ./llama-cli -m ../../models/llama3.2-1b.gguf -cnv --chat-template gemma
+# this for all the order. read github for more
+# win use this：
+cmd:  llama-cli.exe -m ../../models/llama3.2-1b.gguf -cnv --chat-template gemma
+powershell:  ./llama-cli.exe -m ../../models/tiny.gguf -cnv --chat-template gemma
+
+
+
+###### use this one
+./llama-simple-chat -m ../../models/llama3.2-1b.gguf -c 2048
+# start chat
+win:  
+cmd: llama-simple-chat.exe -m ../../models/llama3.2-1b.gguf -c 2048
+powershell:   ./llama-simple-chat -m ../../models/llama3.2-1b.gguf -c 2048
+
+
+

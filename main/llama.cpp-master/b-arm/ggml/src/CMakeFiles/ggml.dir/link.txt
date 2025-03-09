@@ -1,0 +1,2 @@
+/usr/bin/aarch64-linux-gnu-ar qc libggml.a "CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"
+/usr/bin/aarch64-linux-gnu-ranlib libggml.a
